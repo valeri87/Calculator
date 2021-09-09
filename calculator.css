@@ -1,0 +1,53 @@
+.container{
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 10px 40px 30px;
+    max-width: 400px;
+    border: 3px solid blue;
+    padding-inline: 10px;
+    border-radius: 10px;
+    background-color: rgb(11, 31, 43);
+}
+  
+  #display{
+    text-align: right;
+    height: 50px;
+    background-color:azure;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    border-radius: 10px;
+  }
+  
+  .buttons{
+    display: grid;
+    color:cadetblue;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    /* background-color:black; */
+  }
+
+  .button{
+    font-size: 20px;
+    height: 40px;
+    color: white;
+    background-color:rgb(46, 102, 224);
+    border-radius: 10px;
+  }
+  
+  #clear{
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  
+  #zero{
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  html{
+    background-image: url("https://previews.123rf.com/images/iunewind/iunewind1311/iunewind131100015/23645894-spiral-from-different-numbers-vector-infinity-symbol.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
